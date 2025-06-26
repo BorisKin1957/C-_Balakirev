@@ -64,4 +64,7 @@
     },
     "terminal.integrated.encoding": "utf8",
     "files.encoding": "utf8",
+    "files.associations": {
+        "stdio.h": "c"
+    },
 }
