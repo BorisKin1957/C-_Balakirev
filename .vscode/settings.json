@@ -67,4 +67,7 @@
     "files.associations": {
         "stdio.h": "c"
     },
+    "terminal.integrated.commandsToSkipShell": [
+        "\"terminal.integrated.shellArgs.windows\": [\"-NoExit\", \"-Command\", \"chcp 65001\"]"
+    ],
 }
