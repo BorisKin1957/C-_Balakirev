@@ -65,9 +65,12 @@
     "terminal.integrated.encoding": "utf8",
     "files.encoding": "utf8",
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "3_6_03.C": "cpp",
+        "tempCodeRunnerFile.C": "cpp"
     },
     "terminal.integrated.commandsToSkipShell": [
         "\"terminal.integrated.shellArgs.windows\": [\"-NoExit\", \"-Command\", \"chcp 65001\"]"
     ],
+    "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
 }
