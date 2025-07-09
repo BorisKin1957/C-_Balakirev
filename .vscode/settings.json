@@ -73,6 +73,8 @@
         "\"terminal.integrated.shellArgs.windows\": [\"-NoExit\", \"-Command\", \"chcp 65001\"]"
     ],
     "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
-    "C_Cpp.clang_format_path": "C:/clang+llvm-18.1.8-x86_64-pc-windows-msvc/bin/clang-format.exe"
+    "C_Cpp.clang_format_path": "D:/VSCode/clang_format/bin/clang-format.exe",
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_fallbackStyle": "GNU"
    
 }
