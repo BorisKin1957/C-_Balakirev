@@ -62,19 +62,27 @@
         "gleam": "gleam run -m $fileNameWithoutExt"
         
     },
-    "terminal.integrated.encoding": "utf8",
+
     "files.encoding": "utf8",
+    "files.autoGuessEncoding": true,
     "files.associations": {
         "stdio.h": "c",
-        "3_6_03.C": "cpp",
-        "tempCodeRunnerFile.C": "cpp"
+         "tempCodeRunnerFile.C": "cpp"
     },
-    "terminal.integrated.commandsToSkipShell": [
-        "\"terminal.integrated.shellArgs.windows\": [\"-NoExit\", \"-Command\", \"chcp 65001\"]"
-    ],
+    "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+        "source": "PowerShell",
+        "icon": "terminal-powershell",
+        "args": ["-NoExit", "/c", "chcp 65001"]
+    }
+},
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+
     "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
-    "C_Cpp.clang_format_path": "D:/VSCode/clang_format/bin/clang-format.exe",
+    "C_Cpp.clang_format_path": "C:/clang_format/bin/clang-format.exe",
     "C_Cpp.formatting": "clangFormat",
-    "C_Cpp.clang_format_fallbackStyle": "GNU"
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "git.autofetch": true,
+    "git.pullOnOpen": true
    
 }
