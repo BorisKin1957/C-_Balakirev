@@ -1,2 +1,0 @@
-
-        printf("%c", str[i]);
