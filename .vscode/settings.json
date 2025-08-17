@@ -77,6 +77,8 @@
     }
 },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": "Consolas",
 
     "C_Cpp.default.compilerPath": "C:/mingw64/bin/g++.exe",
     "C_Cpp.clang_format_path": "C:/clang_format/bin/clang-format.exe",
