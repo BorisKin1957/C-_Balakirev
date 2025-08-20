@@ -67,7 +67,8 @@
     "files.autoGuessEncoding": true,
     "files.associations": {
         "stdio.h": "c",
-         "tempCodeRunnerFile.C": "cpp"
+        "tempCodeRunnerFile.C": "cpp",
+        
     },
     "terminal.integrated.profiles.windows": {
     "PowerShell": {
