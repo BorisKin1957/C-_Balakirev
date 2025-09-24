@@ -68,7 +68,7 @@
     "files.associations": {
         "stdio.h": "c",
         "tempCodeRunnerFile.C": "cpp",
-        
+        "limits": "c"
     },
     "terminal.integrated.profiles.windows": {
     "PowerShell": {
